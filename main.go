@@ -3,7 +3,8 @@ package main
 import "os"
 
 func main() {
-	testQuicksort()
+	// testQuicksort()
+	testStatistics()
 }
 
 func readEntries() []string {
