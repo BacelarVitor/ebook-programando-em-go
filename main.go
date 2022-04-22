@@ -6,6 +6,7 @@ func main() {
 	// testQuicksort()
 	// testStatistics()
 	// testStack()
+	testInfiniteLoops()
 }
 
 func readEntries() []string {
