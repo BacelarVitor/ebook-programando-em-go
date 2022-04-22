@@ -1,4 +1,4 @@
-// cap two
+// chapter two
 package main
 
 import (

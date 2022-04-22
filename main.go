@@ -4,7 +4,8 @@ import "os"
 
 func main() {
 	// testQuicksort()
-	testStatistics()
+	// testStatistics()
+	testStack()
 }
 
 func readEntries() []string {
