@@ -1,4 +1,4 @@
-//package captwo
+// cap two
 package main
 
 import (
@@ -12,11 +12,6 @@ func testQuicksort() {
 	numbers := convertEntries(entries)
 	orderedNumbers := quicksort(numbers)
 	fmt.Println(orderedNumbers)
-}
-
-func readEntries() []string {
-	entries := os.Args[1:]
-	return entries
 }
 
 func convertEntries(entries []string) []int {
@@ -58,9 +53,9 @@ func split(numbers []int, pivot int) (lower []int, bigger []int) {
 	for _, n := range numbers {
 		if n <= pivot {
 			lower = append(lower, n)
-		} else {
-			bigger = append(bigger, n)
+			continue
 		}
+		bigger = append(bigger, n)
 	}
 
 	return lower, bigger
