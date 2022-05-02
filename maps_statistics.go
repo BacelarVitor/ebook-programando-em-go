@@ -5,7 +5,7 @@ import (
 	"strings"
 )
 
-// chapter 3
+// chapter three
 func testStatistics() {
 	words := readEntries()
 	statistics := gatherStatistics(words)
