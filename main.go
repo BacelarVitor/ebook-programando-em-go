@@ -8,7 +8,8 @@ func main() {
 	// testStack()
 	// testInfiniteLoops()
 	// testNamedLoop()
-	testConvertions()
+	// testConvertions()
+	testGenerics()
 }
 
 func readEntries() []string {
