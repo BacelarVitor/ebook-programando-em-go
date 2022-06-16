@@ -12,7 +12,10 @@ func main() {
 	// testGenerics()
 	// testFunctions()
 	// testCreateFiles()
-	testRegex()
+	// testRegex()
+	//testFibonacci()
+	// testStopwatch()
+	testServerTimeStamp()
 }
 
 func readEntries() []string {
