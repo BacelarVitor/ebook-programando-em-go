@@ -2,6 +2,8 @@ package main
 
 import "fmt"
 
+// chapter six
+
 func testFibonacci() {
 	a, b := 0, 1
 
