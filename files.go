@@ -1,8 +1,20 @@
 package main
 
+import (
+	"fmt"
+	"os"
+)
+
 // chapter six
 
-/* useful example
+func testCreateFiles() {
+	tmp := os.TempDir()
+
+	CreateFiles(tmp)
+	CreateFiles(tmp, "test1")
+	CreateFiles(tmp, "test2", "test3", "test4")
+
+}
 func CreateFiles(dirBase string, files ...string) {
 	for _, name := range files {
 		pathFile := fmt.Sprintf("%s/%s.%s", dirBase, name, "txt")
@@ -19,4 +31,3 @@ func CreateFiles(dirBase string, files ...string) {
 		fmt.Printf("File %s created.\n", file.Name())
 	}
 }
-*/

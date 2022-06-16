@@ -10,7 +10,8 @@ func main() {
 	// testNamedLoop()
 	// testConvertions()
 	// testGenerics()
-	testFunctions()
+	// testFunctions()
+	testCreateFiles()
 }
 
 func readEntries() []string {
