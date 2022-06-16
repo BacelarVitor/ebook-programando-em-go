@@ -9,7 +9,7 @@ func main() {
 	// testInfiniteLoops()
 	// testNamedLoop()
 	// testConvertions()
-	testGenerics()
+	// testGenerics()
 }
 
 func readEntries() []string {
