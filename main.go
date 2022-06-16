@@ -11,7 +11,8 @@ func main() {
 	// testConvertions()
 	// testGenerics()
 	// testFunctions()
-	testCreateFiles()
+	// testCreateFiles()
+	testRegex()
 }
 
 func readEntries() []string {
