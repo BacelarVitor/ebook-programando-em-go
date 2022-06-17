@@ -13,9 +13,9 @@ func main() {
 	// testFunctions()
 	// testCreateFiles()
 	// testRegex()
-	//testFibonacci()
+	// testFibonacci()
 	// testStopwatch()
-	testServerTimeStamp()
+	// testServerTimeStamp()
 }
 
 func readEntries() []string {
