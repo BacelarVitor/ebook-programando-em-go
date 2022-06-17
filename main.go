@@ -16,6 +16,9 @@ func main() {
 	// testFibonacci()
 	// testStopwatch()
 	// testServerTimeStamp()
+	// testBuffers()
+	// testTimeout()
+	testSynchronizer()
 }
 
 func readEntries() []string {
